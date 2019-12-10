@@ -19,6 +19,11 @@ class SplashVC: UIViewController {
     // MARK: - View Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        delay(3.0) {
+            let permissionDataCollectionVC = PermissionDataCollectionVC.initWithStoryboard()
+            permissionDataCollectionVC.makeRootVC()
+        }
     }
     
 }

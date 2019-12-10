@@ -16,6 +16,7 @@ extension UIStoryboard {
     case home = "Home"
     case onboarding = "Onboarding"
     case profile = "Profile"
+    case permission = "Permission"
     case saving = "Saving"
     case splash = "Splash"
     case transaction = "Transaction"
