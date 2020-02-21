@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A929002167534093FE9E679 /* Pods_Daily_Expenses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560AF194B1FDF06E68360967 /* Pods_Daily_Expenses.framework */; };
-		A621132D035AF6EE0357AD0E /* Pods_Daily_ExpensesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9895B4B476B489D0678E4F98 /* Pods_Daily_ExpensesTests.framework */; };
+		0A937FD703C57EFEDB69176A /* Pods_Daily_ExpensesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E56BB39E46E60F78170FC33 /* Pods_Daily_ExpensesTests.framework */; };
+		1E8FC4C6CD12C0EBB9E757D7 /* Pods_Daily_Expenses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AE0E1B00907BE8DD15A3EE /* Pods_Daily_Expenses.framework */; };
+		752CC337F51AAD7B4634612F /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9B25DEBB25B37D0EB0F3BF /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework */; };
+		DD8E294D23FAAA3F0085986A /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8E294C23FAAA3F0085986A /* Calendar.storyboard */; };
+		DD8E294F23FAAA670085986A /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E294E23FAAA670085986A /* CalendarVC.swift */; };
+		DD8E295123FABCD60085986A /* AllButUpsideDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E295023FABCD60085986A /* AllButUpsideDownViewController.swift */; };
 		DD92329A239E383C00CA769F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD923299239E383C00CA769F /* AppDelegate.swift */; };
 		DD9232A3239E383E00CA769F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9232A2239E383E00CA769F /* Assets.xcassets */; };
 		DD9232A6239E383E00CA769F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9232A4239E383E00CA769F /* LaunchScreen.storyboard */; };
@@ -25,7 +29,6 @@
 		DDFE9396239F812E00535E73 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9395239F812E00535E73 /* UIViewController+Extension.swift */; };
 		DDFE939A239F933900535E73 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9399239F933900535E73 /* Onboarding.storyboard */; };
 		DDFE939C239F935000535E73 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE939B239F935000535E73 /* OnboardingVC.swift */; };
-		F432CBD9CA87DBCA94E47609 /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327FAB6C8A6B687F9930A52C /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,20 +52,22 @@
 		07FC63B0ECF62C95E051F09D /* Pods-Daily-ExpensesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-ExpensesTests.debug.xcconfig"; path = "Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13A4C4BD3D26AFCDD3067317 /* Pods_DailyExpenses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyExpenses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0F2F502AF3235A922BD4B8 /* Pods-DailyExpenses-DailyExpensesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyExpenses-DailyExpensesUITests.release.xcconfig"; path = "Target Support Files/Pods-DailyExpenses-DailyExpensesUITests/Pods-DailyExpenses-DailyExpensesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		327FAB6C8A6B687F9930A52C /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Expenses_Daily_ExpensesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E56BB39E46E60F78170FC33 /* Pods_Daily_ExpensesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_ExpensesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D351FB2D6CFB2DB40258B /* Pods-DailyExpensesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyExpensesTests.release.xcconfig"; path = "Target Support Files/Pods-DailyExpensesTests/Pods-DailyExpensesTests.release.xcconfig"; sourceTree = "<group>"; };
 		55EB344D9F8ABA4C5038D957 /* Pods-Daily-Expenses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Expenses.release.xcconfig"; path = "Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses.release.xcconfig"; sourceTree = "<group>"; };
-		560AF194B1FDF06E68360967 /* Pods_Daily_Expenses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Expenses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1C4AAB2FF3C92AF8923267 /* Pods-DailyExpensesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyExpensesTests.debug.xcconfig"; path = "Target Support Files/Pods-DailyExpensesTests/Pods-DailyExpensesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F4787189286B0BB4D16C8B1 /* Pods-Daily-Expenses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Expenses.debug.xcconfig"; path = "Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses.debug.xcconfig"; sourceTree = "<group>"; };
 		817F4BC101C95AA99FDB324F /* Pods-Daily-Expenses-Daily-ExpensesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Expenses-Daily-ExpensesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		867D22DA08B2B6E7BF9A05CA /* Pods_DailyExpensesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyExpensesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EA2207B831E2A463FD8F09 /* Pods-DailyExpenses-DailyExpensesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyExpenses-DailyExpensesUITests.debug.xcconfig"; path = "Target Support Files/Pods-DailyExpenses-DailyExpensesUITests/Pods-DailyExpenses-DailyExpensesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		90C4F7CA9EB2774AD455F3FD /* Pods-Daily-ExpensesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-ExpensesTests.release.xcconfig"; path = "Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests.release.xcconfig"; sourceTree = "<group>"; };
-		9895B4B476B489D0678E4F98 /* Pods_Daily_ExpensesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_ExpensesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AE0E1B00907BE8DD15A3EE /* Pods_Daily_Expenses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Expenses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7870A73BB53473C4F131A6C /* Pods-Daily-Expenses-Daily-ExpensesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily-Expenses-Daily-ExpensesUITests.release.xcconfig"; path = "Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B3C3ED66B94630A8A5533DFA /* Pods-DailyExpenses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyExpenses.release.xcconfig"; path = "Target Support Files/Pods-DailyExpenses/Pods-DailyExpenses.release.xcconfig"; sourceTree = "<group>"; };
 		CEB7E5B0F6BEC4E07CA1F738 /* Pods_DailyExpenses_DailyExpensesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyExpenses_DailyExpensesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8E294C23FAAA3F0085986A /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		DD8E294E23FAAA670085986A /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		DD8E295023FABCD60085986A /* AllButUpsideDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllButUpsideDownViewController.swift; sourceTree = "<group>"; };
 		DD923297239E383C00CA769F /* Daily-Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily-Expenses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD923299239E383C00CA769F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9232A2239E383E00CA769F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 		DDFE9395239F812E00535E73 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		DDFE9399239F933900535E73 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		DDFE939B239F935000535E73 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		EF9B25DEBB25B37D0EB0F3BF /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Expenses_Daily_ExpensesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EDAF8D4191D0B423EE710B /* Pods-DailyExpenses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyExpenses.debug.xcconfig"; path = "Target Support Files/Pods-DailyExpenses/Pods-DailyExpenses.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A929002167534093FE9E679 /* Pods_Daily_Expenses.framework in Frameworks */,
+				1E8FC4C6CD12C0EBB9E757D7 /* Pods_Daily_Expenses.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A621132D035AF6EE0357AD0E /* Pods_Daily_ExpensesTests.framework in Frameworks */,
+				0A937FD703C57EFEDB69176A /* Pods_Daily_ExpensesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F432CBD9CA87DBCA94E47609 /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework in Frameworks */,
+				752CC337F51AAD7B4634612F /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,9 +128,9 @@
 				13A4C4BD3D26AFCDD3067317 /* Pods_DailyExpenses.framework */,
 				CEB7E5B0F6BEC4E07CA1F738 /* Pods_DailyExpenses_DailyExpensesUITests.framework */,
 				867D22DA08B2B6E7BF9A05CA /* Pods_DailyExpensesTests.framework */,
-				560AF194B1FDF06E68360967 /* Pods_Daily_Expenses.framework */,
-				327FAB6C8A6B687F9930A52C /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework */,
-				9895B4B476B489D0678E4F98 /* Pods_Daily_ExpensesTests.framework */,
+				95AE0E1B00907BE8DD15A3EE /* Pods_Daily_Expenses.framework */,
+				EF9B25DEBB25B37D0EB0F3BF /* Pods_Daily_Expenses_Daily_ExpensesUITests.framework */,
+				1E56BB39E46E60F78170FC33 /* Pods_Daily_ExpensesTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +152,25 @@
 				90C4F7CA9EB2774AD455F3FD /* Pods-Daily-ExpensesTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD11836723FFE73100C6B83A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				DD11836823FFE74B00C6B83A /* Login */,
+				DD8E294B23FAAA260085986A /* Calendar */,
+				DDFE9398239F931000535E73 /* Onboarding */,
+				DDE50FF3239E68A0008E3B45 /* Permission */,
+				DDE50FEE239E6713008E3B45 /* Splash */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		DD11836823FFE74B00C6B83A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		DD677A6B239BFC81006F89E9 = {
@@ -170,20 +195,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DD8E294B23FAAA260085986A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				DD8E294C23FAAA3F0085986A /* Calendar.storyboard */,
+				DD8E294E23FAAA670085986A /* CalendarVC.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
 		DD923298239E383C00CA769F /* Daily-Expenses */ = {
 			isa = PBXGroup;
 			children = (
-				DDFE9398239F931000535E73 /* Onboarding */,
+				DD11836723FFE73100C6B83A /* Module */,
 				DDFE9397239F813400535E73 /* Utils */,
 				DDFE9394239F812300535E73 /* Extension */,
-				DDFE9390239E774000535E73 /* GoogleService-Info.plist */,
 				DDFE938D239E763E00535E73 /* Protocol */,
 				DDFE938A239E75AC00535E73 /* Constants */,
-				DDE50FF3239E68A0008E3B45 /* Permission */,
-				DDE50FEE239E6713008E3B45 /* Splash */,
 				DD923299239E383C00CA769F /* AppDelegate.swift */,
 				DD9232A2239E383E00CA769F /* Assets.xcassets */,
 				DD9232A4239E383E00CA769F /* LaunchScreen.storyboard */,
+				DDFE9390239E774000535E73 /* GoogleService-Info.plist */,
 				DD9232A7239E383E00CA769F /* Info.plist */,
 			);
 			path = "Daily-Expenses";
@@ -237,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				DDFE938E239E765200535E73 /* ClassIdentifier.swift */,
+				DD8E295023FABCD60085986A /* AllButUpsideDownViewController.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -277,8 +310,8 @@
 				DD923293239E383C00CA769F /* Sources */,
 				DD923294239E383C00CA769F /* Frameworks */,
 				DD923295239E383C00CA769F /* Resources */,
-				72135D1655ECA4B329BC3ECA /* [CP] Embed Pods Frameworks */,
 				697221BD8BCBB6B200AA696D /* [CP] Copy Pods Resources */,
+				164924530055571F2293EB2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,7 +330,7 @@
 				DD9232A8239E383E00CA769F /* Sources */,
 				DD9232A9239E383E00CA769F /* Frameworks */,
 				DD9232AA239E383E00CA769F /* Resources */,
-				41D107F440E40E4E48538D77 /* [CP] Embed Pods Frameworks */,
+				0722B42601F8570B76DDB000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,8 +350,8 @@
 				DD9232B3239E383E00CA769F /* Sources */,
 				DD9232B4239E383E00CA769F /* Frameworks */,
 				DD9232B5239E383E00CA769F /* Resources */,
-				5887B97D76FB5EB2951BD962 /* [CP] Embed Pods Frameworks */,
 				924BB900D8A876B703671675 /* [CP] Copy Pods Resources */,
+				0B8B157478F887AB4301D4A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,6 +417,7 @@
 				DD9232A3239E383E00CA769F /* Assets.xcassets in Resources */,
 				DDFE939A239F933900535E73 /* Onboarding.storyboard in Resources */,
 				DDE50FF0239E6739008E3B45 /* Splash.storyboard in Resources */,
+				DD8E294D23FAAA3F0085986A /* Calendar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +438,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0722B42601F8570B76DDB000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B8B157478F887AB4301D4A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		164924530055571F2293EB2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2BDD56AEA31E0E493C29F0D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,40 +509,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41D107F440E40E4E48538D77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-ExpensesTests/Pods-Daily-ExpensesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5887B97D76FB5EB2951BD962 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses-Daily-ExpensesUITests/Pods-Daily-Expenses-Daily-ExpensesUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		697221BD8BCBB6B200AA696D /* [CP] Copy Pods Resources */ = {
@@ -497,23 +548,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72135D1655ECA4B329BC3ECA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily-Expenses/Pods-Daily-Expenses-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		924BB900D8A876B703671675 /* [CP] Copy Pods Resources */ = {
@@ -562,11 +596,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8E295123FABCD60085986A /* AllButUpsideDownViewController.swift in Sources */,
 				DD92329A239E383C00CA769F /* AppDelegate.swift in Sources */,
 				DDFE939C239F935000535E73 /* OnboardingVC.swift in Sources */,
 				DDFE9393239F784300535E73 /* Util.swift in Sources */,
 				DDE50FF5239E68C5008E3B45 /* PermissionDataCollectionVC.swift in Sources */,
 				DDFE938C239E75C600535E73 /* UIStoryboard+Constants.swift in Sources */,
+				DD8E294F23FAAA670085986A /* CalendarVC.swift in Sources */,
 				DDFE9396239F812E00535E73 /* UIViewController+Extension.swift in Sources */,
 				DDE50FF2239E6752008E3B45 /* SplashVC.swift in Sources */,
 				DDFE938F239E765200535E73 /* ClassIdentifier.swift in Sources */,
@@ -745,6 +781,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = dailyexpenses.bigbsoft.io;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -767,6 +804,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = dailyexpenses.bigbsoft.io;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

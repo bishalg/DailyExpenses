@@ -105,13 +105,16 @@ extension UIViewController {
 }
 
 extension UIViewController {
+    
     func forceKeyboardDismiss() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         view.endEditing(true)
     }
+    
 }
 
 extension UIViewController {
+    
     func makeRootVC() {
         if let window = UIApplication.shared.delegate?.window {
             window?.rootViewController = self
@@ -119,4 +122,24 @@ extension UIViewController {
             window?.makeKeyAndVisible()
         }
     }
+    
+}
+
+extension UIViewController {
+    
+    func topViewController(in rootViewController: UIViewController?) -> UIViewController? {
+        guard let rootViewController = rootViewController else {
+            return nil
+        }
+        
+        if let tabBarController = rootViewController as? UITabBarController {
+            return topViewController(in: tabBarController.selectedViewController)
+        } else if let navigationController = rootViewController as? UINavigationController {
+            return topViewController(in: navigationController.visibleViewController)
+        } else if let presentedViewController = rootViewController.presentedViewController {
+            return topViewController(in: presentedViewController)
+        }
+        return rootViewController
+    }
+    
 }

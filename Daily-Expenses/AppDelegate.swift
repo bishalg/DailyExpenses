@@ -73,6 +73,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return GIDSignIn.sharedInstance().handle(url)
     }
     
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .allButUpsideDown
+    }
+    
 }
 
 extension AppDelegate {

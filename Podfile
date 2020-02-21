@@ -2,7 +2,8 @@ platform :ios, '12.0'
 
 target 'Daily-Expenses' do
   use_frameworks!
-
+  #use_modular_headers!
+  
   # Pods for DailyExpenses
   
   # Firebase
@@ -27,15 +28,18 @@ target 'Daily-Expenses' do
   pod 'FacebookLogin'
   pod 'FacebookShare'
   
+  # Twitter Login
+  pod 'Swifter'
+  
   # Networking - JSON Parsing
   pod 'SwiftyJSON'
-  pod 'Alamofire', '5.0.0-rc.3'
+  pod 'Alamofire'
   pod 'Kingfisher'
 
   # Graph, Charts & Animation
   pod 'lottie-ios'
   pod 'Charts'
-  pod 'ConfettiView-NSHipster'
+  pod 'JTAppleCalendar'
   # Loading - View
   pod 'SVProgressHUD'
 
@@ -51,8 +55,8 @@ target 'Daily-Expenses' do
   target 'Daily-ExpensesTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 8.0.4'
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'Daily-ExpensesUITests' do
